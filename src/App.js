@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Ryan from "../src/componentes/Ryan.js"
+import Ryan1 from "./componentes/Ryan1.js"
+import Ryan2 from "../src/componentes/Ryan2.js"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Ryan/>
+        <Ryan1/>
+        <Ryan2/>
     </div>
   );
 }
